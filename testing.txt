@@ -1,0 +1,57 @@
+go run . testing/duplicateconnections.map beginning terminus 20
+
+go run . testing/network6.map waterloo st_pancras 3
+
+go run . testing/network6.map waterloo st_pancras 3 too many
+
+go run . testing/noconnections.map beginning terminus 20
+
+go run . testing/network.map beethoven part 9
+
+go run . testing/doublestations.map beginning terminus 20
+
+go run . testing/network6.map too few
+
+go run . testing/network.map startstationmissing part 9
+
+go run . testing/network.map beethoven endstationmissing 9
+
+go run . testing/network.map beethoven part 9
+
+go run . testing/stationnotexist.map beginning terminus 20
+
+go run . testing/nostations.map beginning terminus 20
+
+go run . testing/coordinates.map beginning terminus 20
+
+go run . testing/network2.map small large 9   
+
+go run . testing/network3.map two four 4  
+
+go run . testing/network4.map jungle desert 10
+
+go run . testing/network7.map beginning terminus -20
+
+go run . testing/network6.map waterloo st_pancras 100 
+
+go run . testing/invalidnames.map beginning terminus 20
+
+go run . testing/network5.map bond_square space_port 4
+
+go run . testing/samecoordinates.map beginning terminus 20
+
+go run . testing/mandatoryfix.map waterloo st_pancras 4
+
+go run . testing/network6.map waterloo st_pancras 2
+
+go run . testing/network7.map beginning terminus 20 
+
+go run . testing/network6.map waterloo st_pancras 1
+
+go run . testing/network6.map waterloo st_pancras 4
+
+go run . testing/network6.map waterloo waterloo 4
+
+go run . testing/nopath.map beginning terminus 20   
+
+go run . testing/tenthousand.map station_00000 station_00001 1
